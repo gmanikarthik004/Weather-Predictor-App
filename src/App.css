@@ -1,0 +1,45 @@
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh; /* Changed from height: 100vh to min-height */
+}
+
+/* Ensure the entire app container takes full height */
+.app-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* Ensure main content takes full height and is scrollable */
+.main-content {
+  flex-grow: 1;
+  padding: 2rem;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  min-height: 100vh; /* Ensures consistency */
+}
+
+/* Global Dark & Light mode styling */
+body.dark-mode, .app-container.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.light-mode, .app-container.light-mode {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Ensure each section takes full width */
+section {
+  width: 100%;
+}
+
+/* Optional: Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

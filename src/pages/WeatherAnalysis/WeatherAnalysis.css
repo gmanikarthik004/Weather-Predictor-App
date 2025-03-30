@@ -1,0 +1,50 @@
+.weather-analysis-container {
+    text-align: center;
+    padding: 20px;
+    margin-left: 200px;
+    font-size: 20px;
+  }
+  
+  .charts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .chart {
+    width: 80%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .insight-card {
+    width: 300px;
+    padding: 5px;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 230px;
+    margin-bottom: 10px;
+  }
+
+  .hottest {
+    background-color: #ff5733;
+  }
+  
+  .coldest {
+    background-color: #3498db;
+  }
+  
+  .humid {
+    background-color: #2ecc71;
+  }
+  
+  .windy {
+    background-color: #f1c40f;
+  }
+  

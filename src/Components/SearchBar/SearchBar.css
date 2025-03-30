@@ -1,0 +1,135 @@
+/* Ensure full page layout with centered content */
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121212; /* Dark theme */
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+
+/* Search Container */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  width: 90%;
+  min-width: 650px;
+  max-width: 700px;
+  margin-left: 90px;
+}
+
+/* Search Box Styling */
+.search-box {
+  display: flex;
+  width: 100%;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 9px;
+}
+
+/* Input Field */
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background: #2c2c2c;
+  color: white;
+  border-radius: 18px;
+  margin-left: 6px;
+}
+
+/* Search Button */
+button {
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #e6b800;
+}
+
+/* Error Message */
+.error-message {
+  background: rgba(255, 0, 0, 0.09);
+  color: red;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error-message button {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Weather Info */
+.weather-info {
+  background: #2c2c2c;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 450px; /* Increased width for better display */
+  box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.1);
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+/* Weather Icon & Temperature */
+.weather-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.weather-main img {
+  width: 60px;
+  height: 60px;
+}
+
+.temp {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Weather Description */
+.weather-description {
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+/* Weather Details */
+.weather-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.weather-details p {
+  margin: 5px 0;
+}

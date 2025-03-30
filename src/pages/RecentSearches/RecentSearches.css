@@ -1,0 +1,52 @@
+.recent-searches-container {
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 200px;
+    min-width: 400px;
+    max-width: 500px;
+    padding: 20px;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.recent-searches-container h2 {
+    color: #ffcc00;
+}
+
+.recent-searches-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-searches-container li {
+    padding: 8px;
+    margin: 5px;
+    background: #2c2c2c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.recent-searches-container li:hover {
+    background: #ffcc00;
+    color: black;
+}
+
+/* New Styles for Clear History Button */
+.clear-history-btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.clear-history-btn:hover {
+    background: #cc0000;
+}

@@ -1,0 +1,55 @@
+.weather-news-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .weather-news-container h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-left: 270px;
+  }
+
+  .weather-news-container .para {
+    font-size: 15px;
+    margin-left: 200px;
+
+  }
+  
+  .news-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 230px;
+  }
+  
+  .news-card {
+    background-color:rgb(42, 40, 40);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(116, 103, 103, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .news-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .news-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .news-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .news-card a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+  

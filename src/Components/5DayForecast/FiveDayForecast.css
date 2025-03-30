@@ -1,0 +1,50 @@
+.forecast-container {
+    text-align: center;
+    margin-top: 250px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    min-width: 15%; /* Increased width */
+    margin: 50px auto;
+    overflow: hidden;
+    margin-left: 90px;
+}
+
+/* Expanding Forecast Cards to Fit Properly */
+.forecast-cards {
+    display: flex;
+    justify-content: space-between; /* Ensure equal spacing */
+    gap: 15px;
+    padding: 10px;
+    flex-wrap: wrap; /* Ensures they stay on one row if space is available */
+}
+
+/* Adjusting Forecast Cards for Even Spacing */
+.forecast-card {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    min-width: 18%; /* Adjusted to fit 5 cards in one row */
+    max-width: 18%; /* Ensures proper alignment */
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    color: white;
+    flex-grow: 1; /* Ensures they expand evenly */
+}
+
+.forecast-card:hover {
+    transform: scale(1.05);
+}
+
+.forecast-card img {
+    width: 60px;
+    height: 60px;
+}
+
+.forecast-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
